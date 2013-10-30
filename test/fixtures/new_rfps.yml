@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  price: 1
+  shape: MyString
+  cut: MyString
+  color: MyString
+  clarity: MyString
+  carat: 1.5
+
+two:
+  price: 1
+  shape: MyString
+  cut: MyString
+  color: MyString
+  clarity: MyString
+  carat: 1.5
