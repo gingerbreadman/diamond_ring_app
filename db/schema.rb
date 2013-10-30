@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131030184423) do
+ActiveRecord::Schema.define(version: 20131030201656) do
 
   create_table "new_rfps", force: true do |t|
     t.integer  "price"
@@ -20,6 +20,18 @@ ActiveRecord::Schema.define(version: 20131030184423) do
     t.string   "color"
     t.string   "clarity"
     t.float    "carat"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "users", force: true do |t|
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "email"
+    t.string   "address"
+    t.string   "city"
+    t.string   "state"
+    t.string   "zip"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

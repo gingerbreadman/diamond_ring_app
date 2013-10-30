@@ -8,4 +8,8 @@ class PagesController < ApplicationController
     render("home_page")
   end
 
+  def profile
+    render("profile")
+  end
+
 end
